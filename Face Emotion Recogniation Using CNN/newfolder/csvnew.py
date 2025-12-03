@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Path to your main folder that contains emotion folders
-base_dir = r"E:\t-hub\coding\project\Assessments\30-10-2025(Mini-Project)\emotion dataset\images"  # Change if needed
+base_dir = r"D:\Badri\New folder (2)\Facial-Emotion-Using-CNN\Face Emotion Recogniation Using CNN\emotion dataset\images"  # Change if needed
 
 data = []
 

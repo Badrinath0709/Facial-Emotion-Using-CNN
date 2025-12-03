@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 # ===============================
 # 🔧 PATH CONFIGURATION
 # ===============================
-BASE_PATH = r"E:\t-hub\coding\project\Assessments\30-10-2025(Mini-Project)\emotion dataset\images"   # Path to dataset with emotion folders
+BASE_PATH = r"D:\Badri\New folder (2)\Facial-Emotion-Using-CNN\Face Emotion Recogniation Using CNN\emotion dataset\images"   # Path to dataset with emotion folders
 OUTPUT_H5 = os.path.join(BASE_PATH, "emotion_dataset.h5")
 IMAGE_SIZE = (48, 48)
 

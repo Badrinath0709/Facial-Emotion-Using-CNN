@@ -10,7 +10,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 from tensorflow.keras.optimizers import Adam
 
 # ✅ Load HDF5 file using pandas
-h5_path = r"E:\t-hub\coding\project\Assessments\30-10-2025(Mini-Project)\emotion dataset\images\emotion_images.h5"
+h5_path = r"D:\Badri\New folder (2)\Facial-Emotion-Using-CNN\Face Emotion Recogniation Using CNN\emotion dataset\images\emotion_images.h5"
 df = pd.read_hdf(h5_path, key='data')  # <-- use 'data'
 
 print("✅ Loaded HDF5 dataset successfully!")
